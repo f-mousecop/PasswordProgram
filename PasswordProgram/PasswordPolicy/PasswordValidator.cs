@@ -29,7 +29,6 @@ namespace PasswordProgram.PasswordPolicy
             if (newPasswordPlain.Length < _options.MinLength)
             {
                 result.Errors.Add($"Password must be greater than {_options.MinLength} characters");
-                return result;
             }
 
             // Password character classes for min number, lowercase, uppercase, special
@@ -56,25 +55,21 @@ namespace PasswordProgram.PasswordPolicy
             if (upper < _options.MinUppercase)
             {
                 result.Errors.Add($"Password must contain {_options.MinUppercase} or more uppercase letters");
-                return result;
             }
 
             if (lower < _options.MinLowercase)
             {
                 result.Errors.Add($"Password must contain {_options.MinLowercase} or more lowercase letters");
-                return result;
             }
 
             if (num < _options.MinDigits)
             {
                 result.Errors.Add($"Password must contain {_options.MinDigits} or more numbers");
-                return result;
             }
 
             if (special < _options.MinSpecialCharacters)
             {
                 result.Errors.Add($"Password must contain {_options.MinSpecialCharacters} or more special characters");
-                return result;
             }
 
             return result;
