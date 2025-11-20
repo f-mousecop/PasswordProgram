@@ -3,20 +3,36 @@
   "WorkspaceRootPath": "C:\\Users\\Charles\\Desktop\\Programming\\PasswordProgram\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Charles\\Desktop\\Programming\\PasswordProgram\\PasswordProgramPolicy_Clark.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:PasswordProgramPolicy_Clark.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{089100B1-113F-4E66-888A-E83F3999EAFD}|Solution Items{089100B1-113F-4E66-888A-E83F3999EAFD}|C:\\Users\\Charles\\Desktop\\Programming\\PasswordProgram\\README.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}",
-      "RelativeMoniker": "D:0:0:{089100B1-113F-4E66-888A-E83F3999EAFD}|Solution Items{089100B1-113F-4E66-888A-E83F3999EAFD}|solutionrelative:README.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}"
+      "AbsoluteMoniker": "D:0:0:{A1DC6703-9DD1-CE6E-D02E-5878C0756620}|PasswordProgram\\PasswordProgram.csproj|c:\\users\\charles\\desktop\\programming\\passwordprogram\\passwordprogram\\passwordpolicy\\passwordvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A1DC6703-9DD1-CE6E-D02E-5878C0756620}|PasswordProgram\\PasswordProgram.csproj|solutionrelative:passwordprogram\\passwordpolicy\\passwordvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A1DC6703-9DD1-CE6E-D02E-5878C0756620}|PasswordProgram\\PasswordProgram.csproj|c:\\users\\charles\\desktop\\programming\\passwordprogram\\passwordprogram\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A1DC6703-9DD1-CE6E-D02E-5878C0756620}|PasswordProgram\\PasswordProgram.csproj|solutionrelative:passwordprogram\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{089100B1-113F-4E66-888A-E83F3999EAFD}|Solution Items{089100B1-113F-4E66-888A-E83F3999EAFD}|C:\\Users\\Charles\\Desktop\\Programming\\PasswordProgram\\README.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}|MarkdownPreview",
-      "RelativeMoniker": "D:0:0:{089100B1-113F-4E66-888A-E83F3999EAFD}|Solution Items{089100B1-113F-4E66-888A-E83F3999EAFD}|solutionrelative:README.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}|MarkdownPreview"
+      "AbsoluteMoniker": "D:0:0:{A1DC6703-9DD1-CE6E-D02E-5878C0756620}|PasswordProgram\\PasswordProgram.csproj|c:\\users\\charles\\desktop\\programming\\passwordprogram\\passwordprogram\\services\\ipasswordservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A1DC6703-9DD1-CE6E-D02E-5878C0756620}|PasswordProgram\\PasswordProgram.csproj|solutionrelative:passwordprogram\\services\\ipasswordservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A1DC6703-9DD1-CE6E-D02E-5878C0756620}|PasswordProgram\\PasswordProgram.csproj|c:\\users\\charles\\desktop\\programming\\passwordprogram\\passwordprogram\\passwordpolicy\\passwordpolicyoptions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A1DC6703-9DD1-CE6E-D02E-5878C0756620}|PasswordProgram\\PasswordProgram.csproj|solutionrelative:passwordprogram\\passwordpolicy\\passwordpolicyoptions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A1DC6703-9DD1-CE6E-D02E-5878C0756620}|PasswordProgram\\PasswordProgram.csproj|c:\\users\\charles\\desktop\\programming\\passwordprogram\\passwordprogram\\data\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A1DC6703-9DD1-CE6E-D02E-5878C0756620}|PasswordProgram\\PasswordProgram.csproj|solutionrelative:passwordprogram\\data\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A1DC6703-9DD1-CE6E-D02E-5878C0756620}|PasswordProgram\\PasswordProgram.csproj|c:\\users\\charles\\desktop\\programming\\passwordprogram\\passwordprogram\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A1DC6703-9DD1-CE6E-D02E-5878C0756620}|PasswordProgram\\PasswordProgram.csproj|solutionrelative:passwordprogram\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{089100B1-113F-4E66-888A-E83F3999EAFD}|Solution Items{089100B1-113F-4E66-888A-E83F3999EAFD}|C:\\Users\\Charles\\Desktop\\Programming\\PasswordProgram\\PasswordProgramPolicy_Clark.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}",
+      "RelativeMoniker": "D:0:0:{089100B1-113F-4E66-888A-E83F3999EAFD}|Solution Items{089100B1-113F-4E66-888A-E83F3999EAFD}|solutionrelative:PasswordProgramPolicy_Clark.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{089100B1-113F-4E66-888A-E83F3999EAFD}|Solution Items{089100B1-113F-4E66-888A-E83F3999EAFD}|C:\\Users\\Charles\\Desktop\\Programming\\PasswordProgram\\README.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}",
+      "RelativeMoniker": "D:0:0:{089100B1-113F-4E66-888A-E83F3999EAFD}|Solution Items{089100B1-113F-4E66-888A-E83F3999EAFD}|solutionrelative:README.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}"
     }
   ],
   "DocumentGroupContainers": [
@@ -31,52 +47,110 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "PasswordProgramPolicy_Clark.md",
-              "DocumentMoniker": "C:\\Users\\Charles\\Desktop\\Programming\\PasswordProgram\\PasswordProgramPolicy_Clark.md",
-              "RelativeDocumentMoniker": "PasswordProgramPolicy_Clark.md",
-              "ToolTip": "C:\\Users\\Charles\\Desktop\\Programming\\PasswordProgram\\PasswordProgramPolicy_Clark.md",
-              "RelativeToolTip": "PasswordProgramPolicy_Clark.md",
-              "ViewState": "AgIAACoAAAAAAAAAAAAAADsAAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001818|",
-              "WhenOpened": "2025-11-17T03:46:30.633Z",
+              "Title": "PasswordValidator.cs",
+              "DocumentMoniker": "C:\\Users\\Charles\\Desktop\\Programming\\PasswordProgram\\PasswordProgram\\PasswordPolicy\\PasswordValidator.cs",
+              "RelativeDocumentMoniker": "PasswordProgram\\PasswordPolicy\\PasswordValidator.cs",
+              "ToolTip": "C:\\Users\\Charles\\Desktop\\Programming\\PasswordProgram\\PasswordProgram\\PasswordPolicy\\PasswordValidator.cs",
+              "RelativeToolTip": "PasswordProgram\\PasswordPolicy\\PasswordValidator.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAiwB0AAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-20T01:57:53.18Z",
               "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "README.md [Preview]",
-              "DocumentMoniker": "C:\\Users\\Charles\\Desktop\\Programming\\PasswordProgram\\README.md",
-              "RelativeDocumentMoniker": "README.md",
-              "ToolTip": "C:\\Users\\Charles\\Desktop\\Programming\\PasswordProgram\\README.md [Preview]",
-              "RelativeToolTip": "README.md [Preview]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001818|",
-              "WhenOpened": "2025-11-17T03:11:18.353Z",
-              "EditorCaption": " [Preview]"
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "README.md",
-              "DocumentMoniker": "C:\\Users\\Charles\\Desktop\\Programming\\PasswordProgram\\README.md",
-              "RelativeDocumentMoniker": "README.md",
-              "ToolTip": "C:\\Users\\Charles\\Desktop\\Programming\\PasswordProgram\\README.md",
-              "RelativeToolTip": "README.md",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAmAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001818|",
-              "WhenOpened": "2025-11-17T03:10:49.918Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\Charles\\Desktop\\Programming\\PasswordProgram\\PasswordProgram\\Program.cs",
               "RelativeDocumentMoniker": "PasswordProgram\\Program.cs",
               "ToolTip": "C:\\Users\\Charles\\Desktop\\Programming\\PasswordProgram\\PasswordProgram\\Program.cs",
               "RelativeToolTip": "PasswordProgram\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAFAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-17T02:51:17.782Z"
+              "WhenOpened": "2025-11-20T01:57:24.092Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "IPasswordService.cs",
+              "DocumentMoniker": "C:\\Users\\Charles\\Desktop\\Programming\\PasswordProgram\\PasswordProgram\\Services\\IPasswordService.cs",
+              "RelativeDocumentMoniker": "PasswordProgram\\Services\\IPasswordService.cs",
+              "ToolTip": "C:\\Users\\Charles\\Desktop\\Programming\\PasswordProgram\\PasswordProgram\\Services\\IPasswordService.cs",
+              "RelativeToolTip": "PasswordProgram\\Services\\IPasswordService.cs",
+              "ViewState": "AgIAABEAAAAAAAAAAAAmwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-20T01:56:51.533Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "PasswordPolicyOptions.cs",
+              "DocumentMoniker": "C:\\Users\\Charles\\Desktop\\Programming\\PasswordProgram\\PasswordProgram\\PasswordPolicy\\PasswordPolicyOptions.cs",
+              "RelativeDocumentMoniker": "PasswordProgram\\PasswordPolicy\\PasswordPolicyOptions.cs",
+              "ToolTip": "C:\\Users\\Charles\\Desktop\\Programming\\PasswordProgram\\PasswordProgram\\PasswordPolicy\\PasswordPolicyOptions.cs",
+              "RelativeToolTip": "PasswordProgram\\PasswordPolicy\\PasswordPolicyOptions.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABEAAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-20T01:56:23.161Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\Users\\Charles\\Desktop\\Programming\\PasswordProgram\\PasswordProgram\\data\\User.cs",
+              "RelativeDocumentMoniker": "PasswordProgram\\data\\User.cs",
+              "ToolTip": "C:\\Users\\Charles\\Desktop\\Programming\\PasswordProgram\\PasswordProgram\\data\\User.cs",
+              "RelativeToolTip": "PasswordProgram\\data\\User.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-20T01:56:07.513Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "AppDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\Charles\\Desktop\\Programming\\PasswordProgram\\PasswordProgram\\data\\AppDbContext.cs",
+              "RelativeDocumentMoniker": "PasswordProgram\\data\\AppDbContext.cs",
+              "ToolTip": "C:\\Users\\Charles\\Desktop\\Programming\\PasswordProgram\\PasswordProgram\\data\\AppDbContext.cs",
+              "RelativeToolTip": "PasswordProgram\\data\\AppDbContext.cs",
+              "ViewState": "AgIAABsAAAAAAAAAAAA0wAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-20T01:55:50.031Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "PasswordProgramPolicy_Clark.md",
+              "DocumentMoniker": "C:\\Users\\Charles\\Desktop\\Programming\\PasswordProgram\\PasswordProgramPolicy_Clark.md",
+              "RelativeDocumentMoniker": "PasswordProgramPolicy_Clark.md",
+              "ToolTip": "C:\\Users\\Charles\\Desktop\\Programming\\PasswordProgram\\PasswordProgramPolicy_Clark.md",
+              "RelativeToolTip": "PasswordProgramPolicy_Clark.md",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAAADIAAABkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001818|",
+              "WhenOpened": "2025-11-20T01:10:35.464Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "README.md",
+              "DocumentMoniker": "C:\\Users\\Charles\\Desktop\\Programming\\PasswordProgram\\README.md",
+              "RelativeDocumentMoniker": "README.md",
+              "ToolTip": "C:\\Users\\Charles\\Desktop\\Programming\\PasswordProgram\\README.md",
+              "RelativeToolTip": "README.md",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001818|",
+              "WhenOpened": "2025-11-20T01:02:09.633Z",
+              "EditorCaption": ""
             }
           ]
         }
