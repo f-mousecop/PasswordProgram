@@ -99,6 +99,16 @@ namespace PasswordProgram
             }
         }
 
+
+        /// <summary>
+        /// Deletes a user from the database after prompting for confirmation and user selection.
+        /// </summary>
+        /// <remarks>This method interacts with the console to display all users, prompt for a user ID,
+        /// and confirm deletion before removing the user. If no users exist or the operation is cancelled, no changes
+        /// are made to the database. The method must be called from a context that supports console input and
+        /// output.</remarks>
+        /// <param name="db">The database context used to access and modify user records. Must not be null.</param>
+        /// <returns>A task that represents the asynchronous delete operation.</returns>
         private static async Task DeleteUserAsync(AppDbContext db)
         {
             Console.Clear();
@@ -182,6 +192,15 @@ namespace PasswordProgram
             }
         }
 
+
+        /// <summary>
+        /// Displays a list of all users in the database to the console asynchronously.
+        /// </summary>
+        /// <remarks>The method clears the console and outputs user details if any users are found;
+        /// otherwise, it displays a message indicating that no users exist. The method pauses for user input before
+        /// returning.</remarks>
+        /// <param name="db">The database context used to retrieve user information. Cannot be null.</param>
+        /// <returns>A task that represents the asynchronous operation.</returns>
         private static async Task ListUsersAsync(AppDbContext db)
         {
             Console.Clear();
@@ -211,6 +230,16 @@ namespace PasswordProgram
             Console.ReadKey();
         }
 
+
+        /// <summary>
+        /// Prompts the user to change their password by verifying credentials and updating the password using the
+        /// specified password service.
+        /// </summary>
+        /// <remarks>This method interacts with the console to guide the user through the password change
+        /// process. The operation can be cancelled by entering 'q' when prompted for the current password.</remarks>
+        /// <param name="passwordService">The password service used to validate and update the user's password.</param>
+        /// <param name="db">The database context used to retrieve user information.</param>
+        /// <returns>A task that represents the asynchronous operation.</returns>
         private static async Task ChangePasswordAsync(IPasswordService passwordService, AppDbContext db)
         {
             Console.Clear();
@@ -310,12 +339,11 @@ namespace PasswordProgram
             Console.Write("Display name: ");
             string? displayName = Console.ReadLine();
 
-            Console.Write("First and last name (separated by a space): ");
-            string? fullName = Console.ReadLine();
+            Console.Write("First name: ");
+            string? firstName = Console.ReadLine();
 
-            string[] firstAndLastName = SplitStringToArray(fullName ?? string.Empty);
-            string firstName = firstAndLastName[0];
-            string lastName = firstAndLastName[1];
+            Console.Write("Last name: ");
+            string? lastName = Console.ReadLine();
 
 
             string password;
@@ -365,38 +393,7 @@ namespace PasswordProgram
             Console.ReadKey();
         }
 
-        /*private static string? ReadPassword()
-        {
-            var password = string.Empty;
-            ConsoleKey key;
 
-            do
-            {
-                var keyInfo = Console.ReadKey(intercept: true);
-                key = keyInfo.Key;
-
-                if (key == ConsoleKey.Backspace && password.Length > 0)
-                {
-                    password = password[0..^1];
-                    Console.Write("\b \b");
-                }
-                else if (!char.IsControl(keyInfo.KeyChar))
-                {
-                    password += keyInfo.KeyChar;
-                    Console.Write("*");
-                }
-            } while (key != ConsoleKey.Enter);
-
-            return password;
-        }*/
-
-        private static readonly char[] SpaceSeparator = [' '];
-
-        private static string[] SplitStringToArray(string input)
-        {
-            string[] result = input.Split(SpaceSeparator, StringSplitOptions.RemoveEmptyEntries);
-            return result;
-        }
 
         private static void DisplayPolicy()
         {
