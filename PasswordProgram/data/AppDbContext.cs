@@ -53,6 +53,14 @@ namespace PasswordProgram.data
                     .IsRequired()
                     .HasMaxLength(512);
 
+                builder.Property(u => u.FirstName)
+                    .IsRequired()
+                    .HasMaxLength(256);
+
+                builder.Property(u => u.LastName)
+                    .IsRequired()
+                    .HasMaxLength(256);
+
                 builder.Property(u => u.PasswordHash)
                        .IsRequired();
             });

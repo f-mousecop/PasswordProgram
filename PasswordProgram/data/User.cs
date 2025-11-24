@@ -6,6 +6,16 @@ namespace PasswordProgram.data
 {
     /// <summary>
     /// Represents a user account with authentication and profile information.
+    /// <list type="table">
+    /// <item><see cref="Username"/></item>
+    /// <item><see cref="AccountName"/></item>
+    /// <item><see cref="DisplayName"/></item>
+    /// <item><see cref="FirstName"/></item>
+    /// <item><see cref="LastName"/></item>
+    /// <item><see cref="PasswordHash"/></item>
+    /// <item><see cref="PasswordLastChangedAt"/></item>
+    /// <item><see cref="PasswordHistories"/></item>
+    /// </list>
     /// </summary>
     /// <remarks>The User class contains properties for user identification, authentication, and profile
     /// display. It includes password management features such as password history and the timestamp of the last
@@ -19,6 +29,8 @@ namespace PasswordProgram.data
         public string Username { get; set; } = null!;
         public string AccountName { get; set; } = null!;
         public string DisplayName { get; set; } = null!;
+        public string FirstName { get; set; } = null!;
+        public string LastName { get; set; } = null!;
 
         // Hashed password using BCrypt
         public string PasswordHash { get; set; } = null!;

@@ -20,6 +20,8 @@ namespace PasswordProgram.Services
             string accountName,
             string userName,
             string displayName,
+            string firstName,
+            string lastName,
             string passwordPlain);
 
         /// <summary>

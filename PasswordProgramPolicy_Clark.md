@@ -47,7 +47,7 @@ then 24 hours before the 60th day.
 - Avoid writing passwords down. 
 - Do not share passwords with others. 
 - Users are encouraged to use secure, encrypted password management software for password storage and generation that complies with the standards outlined in this policy—web browser-based extensions and password managers are strictly prohibited. 
-- Password construction must meet the requirements outlined in section [4. Password management](#4-password-management) 
+- Password construction must meet the requirements outlined in section [4. Password management](#4-password-management)
 - Users are required to enable MFA outlined in section [5. Multifactor authentication (MFA)](#5-multifactor-authentication) 
 
 *If a user does not change their password on or before 60 days, the password will expire; 
